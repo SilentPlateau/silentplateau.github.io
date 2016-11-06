@@ -7,7 +7,7 @@ categories: test
 
 There is the code of Hello World in C language.
 
-{% highlight c %}
+{% highlight c linenos %}
 #include "stdio.h"
 #include "stdlib.h"
 

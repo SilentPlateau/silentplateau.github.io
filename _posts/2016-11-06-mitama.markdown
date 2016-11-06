@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Mitama"
+date:   2016-11-06 21:35:42 +0800
+categories: game
+---
+
+What a suck game

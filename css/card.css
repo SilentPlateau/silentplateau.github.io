@@ -1,0 +1,53 @@
+table, th, td {
+  border: 1px solid #EBC76B;
+  border-spacing: 0px;
+}
+.daemon-top-container {
+  position: relative;
+  overflow: hidden;
+  height: 740px;
+}
+.daemon-background-img {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  margin-top: -200px;
+  width: 740px;
+}
+.daemon-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 740px;
+}
+.daemon-card-table {
+  float: left;
+  margin: 10px;
+  width: 47%;
+}
+.daemon-detail-table {
+  float: right;
+  margin: 10px;
+  width: 47%;
+}
+.daemon-name {
+  background-color: #732F24;
+  color: #EADCDC;
+}
+.daemon-desc {
+  background-color: #2C1D11;
+  color: #FFFFFF;
+  padding: 10px;
+}
+.daemon-data {
+  background-color: #5F292E;
+  color: #EBDCDA;
+}
+.daemon-title {
+  background-color: #1d1515;
+  color: #2F858C;
+}
+.daemon-content {
+  background-color: #5F292E;
+  color: #EBDCDA;
+  padding: 10px;
+}

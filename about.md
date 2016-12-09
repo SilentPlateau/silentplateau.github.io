@@ -4,12 +4,16 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+## 高啟原 Chuck Kao
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+### 現職
+* 鴻海 通訊網路產品事業群 CPEII研發處 Cable Modem 軟體工程師 (2013/12 - )
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+### 學歷
+* 國立成功大學資訊工程學研究所 碩士 (2011 - 2013)
+* 國立高雄大學資訊工程學系 學士 (2007 - 2011)
+* 臺北市立成功高級中學 (2004 - 2007)
+
+### 技能
+* C/C++
+* DOCSIS

@@ -1,0 +1,147 @@
+---
+layout: post
+title:  "鵺"
+date:   2016-11-26 17:31:15 +0800
+categories: otogi card
+---
+
+<link rel="stylesheet" type="text/css" href="{{ site.url }}/css/card.css" />
+<script type="text/javascript" src="{{ site.url }}/js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="{{ site.url }}/js/card.js"></script>
+<script>
+var config = {
+  "id": 100001,
+  "name": "鵺",
+  "rarity": 5,
+  "desc": '<color=#f4e48e>「哼哼，真是破綻百出啊……！」</color><br/><color=#ef9843>結合了猴子、狸貓、老虎與蛇之能力於一身的妖怪。</color>能借助動物的力量展現超凡的肉體能力。也因為如此，她極少使用武器，更喜歡用<color=#ef9843>體術</color>玩弄、擊倒對手。唯一美中不足的是，她經常會因為肚子餓而喪失鬥志。',
+  "min-atk": 2165,
+  "max-atk": 6500,
+  "min-hp": 3265,
+  "max-hp": 9800,
+  "skill-name": "召喚牙獸",
+  "skill-desc": "對當前目標造成{value}點傷害，並使目標{probability}眩暈",
+  "skill-min-dmg": 1300,
+  "skill-inc-dmg": 38,
+  "skill-effect-type": "probability",
+  "skill-min-effect": 15,
+  "skill-inc-effect": 0.43,
+  "skill-effect-unit": "%",
+  "ability1-name": "獸因子",
+  "ability1-desc": "暴擊率一定幅度增加",
+  "ability2-name": "魔獸因子",
+  "ability2-desc": "暴擊傷害超大幅增加",
+  "quotes-obtain": "「你看起來有點斤兩嘛，請多指教囉。」",
+  "quotes-skill": "「去吧！」",
+  "quotes-awake": "「啊啊，我感覺到一股力量湧上來了……！」",
+  "illustrator": "木屋町"
+};
+
+$(document).ready(function(){
+  init(config);
+});
+</script>
+
+<div class="daemon-top-container">
+<img id="background-img" class="background-img">
+
+<div class="daemon-container">
+<table class="daemon-card-table">
+<tr>
+  <th id="daemon-name" class="daemon-name"></th>
+</tr>
+<tr>
+  <td><img id="daemon-card-img"></td>
+</tr>
+<tr>
+  <td id="daemon-desc" class="daemon-desc"></td>
+</tr>
+</table>
+
+<table class="daemon-detail-table">
+<tr>
+  <th colspan="7" class="daemon-title">數據</th>
+</tr>
+<tr id="level" class="daemon-data">
+  <th>等級</th>
+  <th>Lv 1</th>
+  <th>Lv 70</th>
+  <th>Lv 75</th>
+  <th>Lv 80</th>
+  <th>Lv 85</th>
+  <th>Lv 90</th>
+</tr>
+<tr id="atk" class="daemon-data">
+  <th>ATK</th>
+  <td>2165</td>
+  <td>6500</td>
+  <td>6500</td>
+  <td>6500</td>
+  <td>6500</td>
+  <td>6500</td>
+</tr>
+<tr id="hp" class="daemon-data">
+  <th>HP</th>
+  <td>3265</td>
+  <td>9800</td>
+  <td>9800</td>
+  <td>9800</td>
+  <td>9800</td>
+  <td>9800</td>
+</tr>
+<tr id="dmg" class="daemon-data">
+  <th>傷害</th>
+  <td>3265</td>
+  <td>9800</td>
+  <td>9800</td>
+  <td>9800</td>
+  <td>9800</td>
+  <td>9800</td>
+</tr>
+<tr id="effect" class="daemon-data">
+  <th>機率</th>
+  <td>3265</td>
+  <td>9800</td>
+  <td>9800</td>
+  <td>9800</td>
+  <td>9800</td>
+  <td>9800</td>
+</tr>
+<tr>
+  <th colspan="7" class="daemon-title">技能</th>
+</tr>
+<tr>
+  <td id="skill" colspan="7" class="daemon-content"></td>
+</tr>
+<tr>
+  <td id="ability1" colspan="7" class="daemon-content"></td>
+</tr>
+<tr>
+  <td id="ability2" colspan="7" class="daemon-content"></td>
+</tr>
+<tr>
+  <th colspan="7" class="daemon-title">台詞</th>
+</tr>
+<tr>
+  <td id="obtain" colspan="7" class="daemon-content">
+    <font color="#f4e48e"></font><br>
+  </td>
+</tr>
+<tr>
+  <td id="skilling" colspan="7" class="daemon-content">
+    <font color="#f4e48e"></font><br>
+  </td>
+</tr>
+<tr>
+  <td id="awake" colspan="7" class="daemon-content">
+    <font color="#f4e48e"></font><br>
+  </td>
+</tr>
+<tr>
+  <th colspan="7" class="daemon-title">繪師</th>
+</tr>
+<tr>
+  <td id="illustrator" colspan="7" class="daemon-content"></td>
+</tr>
+</table>
+</div>
+</div>
